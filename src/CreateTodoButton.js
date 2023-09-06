@@ -1,6 +1,6 @@
 function CreateTodoButton() {  
   return (
-    <button> Click!! </button>
+    <button> + </button>
   );
 }
 
