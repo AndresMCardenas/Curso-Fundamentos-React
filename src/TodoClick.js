@@ -1,0 +1,21 @@
+import React from "react";
+
+function TodoClick() {
+  let [state, setState] = React.useState(0);
+
+  return (
+    <>
+      <p>
+        Diste Click
+        {state} veces
+      </p>
+      <button
+        onClick={() => {
+          setState(state++)
+        }}
+      >Click</button>
+    </>
+  )
+}
+
+export { TodoClick };

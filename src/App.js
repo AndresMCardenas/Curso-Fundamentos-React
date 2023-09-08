@@ -27,7 +27,8 @@ function App() {
             text={todo.text}
             completed={todo.completed}
           />
-        ))};
+        ))}
+        
       </TodoList>
       
       <CreateTodoButton />
